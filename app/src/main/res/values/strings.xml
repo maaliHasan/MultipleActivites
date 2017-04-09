@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultipleActivities</string>
+    <string name="ScndActivity">Go to second Activity </string>
+    <string name="ActivityTwo">Return to Activity One</string>
+</resources>
