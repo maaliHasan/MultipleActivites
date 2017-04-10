@@ -21,6 +21,14 @@
         android:layout_centerHorizontal="true"
         android:inputType="number"
         android:id="@+id/ScndNum"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ScndNum"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/result"
+        android:layout_marginTop="100dp"
+        />
 
     <Button
         android:id="@+id/CoolingActivity2"
@@ -28,8 +36,8 @@
         android:layout_height="wrap_content"
         android:text="@string/ScndActivity"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:onClick=""/>
+       android:layout_below="@+id/result"
+        android:layout_marginTop="30dp" />
 
 
         />
